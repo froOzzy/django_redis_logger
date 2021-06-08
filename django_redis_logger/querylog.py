@@ -1,5 +1,7 @@
 from redis import Redis
 
+from .pool import redis_connection
+
 
 class QueryLog:
     """Класс для имитации списка объектов логов"""
