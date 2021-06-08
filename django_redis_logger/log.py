@@ -1,5 +1,6 @@
 from redis import Redis
 
+from .pool import redis_connection
 from .utils import _prepared_data_to_redis
 
 
